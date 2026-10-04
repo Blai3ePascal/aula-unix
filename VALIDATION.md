@@ -29,3 +29,11 @@ El navegador remoto de pruebas no devolvió el evento de descarga del enlace Blo
 ## Límites de la verificación
 
 Estas pruebas cubren el repertorio implementado y las familias del banco. No certifican compatibilidad con todas las órdenes, opciones o extensiones de Bash/GNU, ni garantizan ausencia absoluta de errores. El alcance de la emulación se explica dentro de la aplicación y en README.md. El examen permite ayudas y no es una evaluación autenticada ni vigilada.
+
+## Rediseño Signal (4 de octubre de 2026)
+
+- 14 pruebas automáticas pasan, incluyendo pausa, movimiento reducido, pestaña oculta y liberación del ciclo de animación.
+- Comprobación de escritorio: temas, conocimientos, consola con pwd, corrección por objetivo y generación del informe. Sin errores de la aplicación en la consola del navegador de pruebas.
+- Guardado de la preferencia de pausa y recuperación de sesiones de la primera versión.
+- Inicio y espacio de trabajo en marcos de 320 y 390 px: anchura de documento igual a la anchura disponible, sin desbordamiento horizontal. Se corrigió el tamaño mínimo implícito de la lista de preguntas en Grid.
+- Fuente VT323 en WOFF servida localmente; licencia SIL OFL incluida. CSS y entrada de la aplicación con versión para actualizar la caché.

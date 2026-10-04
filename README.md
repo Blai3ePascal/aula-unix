@@ -56,3 +56,9 @@ La consola tiene límites de orden (4.000 caracteres), anidación (10), expresi�
 El modo examen es **de práctica**, con ayuda visible; no es una evaluación vigilada, no autentica al alumno y sus resultados locales se pueden modificar. No hay servidor de usuarios, sincronización ni envío de datos personales. Si el almacenamiento está bloqueado, se avisa; exporta antes de cerrar. Borrar elimina únicamente los datos de Aula Unix.
 
 Los ejercicios se adaptan del material aportado de los temas 1, 2, 4, 5 y 6; la interfaz identifica documento y página. Se han corregido erratas sobre nombre de equipo frente a arquitectura, cabeceras de procesos, permisos del directorio padre, bloques de `find -size`, `cut -d:`, ordenación moderna `sort -k`, grupos y guiones de opciones. Los documentos originales no se publican en el repositorio.
+
+## Diseño Signal
+
+Interfaz oscura inspirada en la referencia visual aportada: tipografía de terminal, acentos ámbar, navegación horizontal y selección por filas. Fondo propio de partículas en Canvas 2D; sin React, Three.js ni servicios externos. La animación se puede pausar, recuerda la preferencia, respeta movimiento reducido y deja de ejecutarse en pestañas ocultas. La consola utiliza texto monoespaciado convencional para facilitar la lectura; los títulos usan VT323, incluida localmente con su licencia SIL OFL.
+
+Referencias revisadas: [React Bits / Dither](https://github.com/DavidHDev/react-bits/tree/main/src/content/Backgrounds/Dither) para el tratamiento visual de ondas y puntos; [Google Fonts / VT323](https://github.com/google/fonts/tree/main/ofl/vt323) para la fuente. El código de la animación se ha escrito para esta aplicación, sin copiar el componente Dither.
